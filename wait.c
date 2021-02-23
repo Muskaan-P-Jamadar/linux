@@ -8,7 +8,7 @@ int main() {
    if (pid == 0) {
       system("ls");
       sleep(10);
-      system("ls");
+      system("-l");
    } else {
       sleep(3);
    }
